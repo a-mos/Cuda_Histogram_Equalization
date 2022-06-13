@@ -33,7 +33,7 @@ Filter GPU time (with copy): 4.29588 ms
 GPU Copy time: 4.05107 ms  
 
 
-# Optimizations
+## Optimizations
 * Using shared memory as histogram storage [nvidia blog](https://developer.nvidia.com/blog/gpu-pro-tip-fast-histograms-using-shared-atomics-maxwell/)
 * Parallel reduction using SCAN alghoritm [for more details](http://lumetta.web.engr.illinois.edu/408-S20/slide-copies/ece408-lecture16-S20.pdf)
 * CPU version parallelized using OpenMP 
